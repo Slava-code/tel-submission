@@ -1,5 +1,7 @@
 # YouTube AI Productivity Extension
 
+<img width="1440" height="855" alt="Lock-In! Youtube Extension screenshot" src="https://github.com/user-attachments/assets/4d4eebb1-238d-4a6b-ac6d-922bcd276188" />
+
 A Chrome extension that uses AI to filter YouTube videos based on your productivity preferences, helping you stay focused by intelligently hiding distracting content.
 
 ## Features
