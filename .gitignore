@@ -1,0 +1,44 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment variables and config
+src/config.ts
+backend/config.py
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Google Cloud
+.gcloud/
+service-account-key.json
+static-lead-463918-r6-*.json
+/Users/slavaiud/Desktop/for_use/static-lead-463918-r6-e812d874903e.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class

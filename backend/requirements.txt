@@ -1,0 +1,7 @@
+functions-framework==3.5.0
+google-cloud-aiplatform==1.71.1
+google-cloud-firestore==2.14.0
+vertexai==1.71.1
+requests==2.31.0
+google-genai
+google-generativeai

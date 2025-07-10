@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Productivity Filter",
+    "version": "1.0",
+    "description": "Filters YouTube content using AI.",
+    "permissions": [
+      "storage",
+      "activeTab"
+    ],
+    "action": {
+      "default_popup": "index.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["src/youtube-filter.js"]
+      }
+    ],
+    "host_permissions": [
+      "https://*.googleapis.com/",
+      "https://api.duckduckgo.com/"
+    ]
+  }

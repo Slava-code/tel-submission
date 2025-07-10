@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gcloud functions deploy:*)",
+      "Bash(./deploy-personal.sh:*)",
+      "Bash(gcloud functions logs read:*)",
+      "Bash(export MODEL_ID=\"gemini-1.5-flash-002\")",
+      "Bash(export PROJECT_ID=\"your-gcp-project-id\")",
+      "Bash(export MODEL_ID=\"publishers/google/models/text-bison\")",
+      "Bash(python3:*)",
+      "Bash(gcloud functions list:*)",
+      "Bash(curl:*)",
+      "Bash(npm run build:*)"
+    ],
+    "deny": []
+  }
+}
