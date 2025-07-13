@@ -1,3 +1,5 @@
+! This is a mostly "vibe-coded" project for a hackathon submission. I used this project to test AI coding-assisting tools to understand their principles and best-practices.
+
 # YouTube AI Productivity Extension
 
 A Chrome extension that uses AI to filter YouTube videos based on your productivity preferences, helping you stay focused by intelligently hiding distracting content.
